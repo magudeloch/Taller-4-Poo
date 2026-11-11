@@ -1,21 +1,22 @@
-# Universidad Nacional de Colombia
+# Actividad 4 - Interfaces Gráficas y Manejo de Excepciones en Python
 
-**Actividad 4 - Interfaces Gráficas de Usuario y Manejo de Excepciones en Python**
+## 📚 Información académica
 
-* **Estudiante:** Mateo Agudelo Chica
-* **Docente:** Walter Hugo Arboleda Mazo
-* **Asignatura:** Programación Orientada a Objetos
-* **Semestre:** 2026-2S
+- **Universidad:** Universidad Nacional de Colombia
+- **Actividad:** Actividad 4 (Valor 20%) - Excepciones y lectura/escritura de archivos
+- **Estudiante:** Mateo Agudelo Chica
+- **Docente:** Walter Hugo Arboleda Mazo
+- **Asignatura:** Programación Orientada a Objetos
+- **Semestre:** 2026-2S
 
-## Descripción del Proyecto
-Este repositorio contiene la solución a los 5 ejercicios de la Actividad 4. Se adaptaron los requerimientos de consola en Java del texto guía a Interfaces Gráficas de Usuario (GUI) interactivas utilizando Python y la librería Tkinter. Se incluyen tanto los ejercicios base como las partes propuestas:
+---
 
-* **Ejercicio 1 (Pág. 400 - Ejercicio 6.4):** Prueba de excepciones básicas (División por cero, objeto nulo, índice de string fuera de límite y error de formato de número).
-* **Ejercicio 2 (Pág. 406 - Ejercicio 6.5):** Clase `Vendedor` con verificación estricta de edad desde el constructor y clase `TablaASCII` con excepciones de argumentos ilegales.
-* **Ejercicio 3 (Pág. 412 - Ejercicio 6.6):** Múltiples catchs aplicados a cálculos numéricos (Logaritmo neperiano, raíz cuadrada, pendiente de una recta, ecuación cuadrática y conversión a base b).
-* **Ejercicio 4 (Pág. 418 - Ejercicio 6.7):** Sistema de registro para un equipo de maratón de programación (`EquipoMaratonProgramacion`), incluyendo validaciones para que los nombres no contengan dígitos y un módulo de contraseña segura (mínimo 8 caracteres, mayúscula, número y carácter especial).
-* **Ejercicio 5 (Pág. 427 - Ejercicio 6.8):** Explorador y lector de archivos `.txt` mediante manejo de excepciones de Entrada/Salida (I/O), implementando conversión automática de texto a mayúsculas.
+## 📝 Ejercicios
 
-## Requisitos de Ejecución
-* Python 3.x
-* Librería estándar `tkinter` (incluida en la mayoría de instalaciones de Python).
+| # | Descripción |
+|---|-------------|
+| **Ejercicio 1 (Pág. 400)** | **Prueba de excepciones:** Interfaz gráfica desarrollada en Tkinter para generar y capturar intencionalmente excepciones básicas como división por cero, objeto nulo, índice de string fuera de límite y error de formato de número. |
+| **Ejercicio 2 (Pág. 406)** | **Lanzamiento de excepciones:** Implementación de la clase `Vendedor` con validación estricta de edad desde el constructor (lanzando excepciones de argumento ilegal) y gestión de una `TablaASCII`, capturando y mostrando los errores en la interfaz. |
+| **Ejercicio 3 (Pág. 412)** | **Catchs múltiples:** Calculadora estructurada en pestañas para cálculos numéricos (logaritmo neperiano, raíz cuadrada, pendiente de una recta, ecuación cuadrática y conversión de base), manejando de forma independiente errores aritméticos y de formato (catchs múltiples). |
+| **Ejercicio 4 (Pág. 418)** | **Validación de campos:** Sistema de inscripción para un equipo de maratón de programación. Incluye validaciones estrictas para que los nombres no contengan dígitos y un verificador de contraseñas seguras (longitud mínima, mayúsculas, números y caracteres especiales). |
+| **Ejercicio 5 (Pág. 427)** | **Lectura de archivos:** Interfaz con explorador de archivos para abrir y leer documentos de texto (`.txt`), manejando excepciones de Entrada/Salida (I/O) en flujos de datos y mostrando el contenido convertido automáticamente a mayúsculas. |
